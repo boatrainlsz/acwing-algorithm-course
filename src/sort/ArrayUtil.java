@@ -15,7 +15,7 @@ public class ArrayUtil {
     public static void isSorted(int[] q) {
         for (int i = 0; i < q.length - 1; i++) {
             if (q[i] > q[i + 1]) {
-                System.out.println(Arrays.toString(q));
+                System.err.println(Arrays.toString(q));
                 throw new IllegalStateException("not sorted");
             }
         }
