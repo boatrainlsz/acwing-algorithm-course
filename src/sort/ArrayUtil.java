@@ -1,5 +1,7 @@
 package sort;
 
+import java.util.Arrays;
+
 public class ArrayUtil {
 
     public static int[] generateRandomArray(int size, int min, int max) {
@@ -12,7 +14,10 @@ public class ArrayUtil {
 
     public static void isSorted(int[] q) {
         for (int i = 0; i < q.length - 1; i++) {
-            if (q[i] > q[i + 1]) throw new IllegalStateException("not sorted");
+            if (q[i] > q[i + 1]) {
+                System.out.println(Arrays.toString(q));
+                throw new IllegalStateException("not sorted");
+            }
         }
     }
 }
