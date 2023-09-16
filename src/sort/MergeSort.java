@@ -1,10 +1,14 @@
 package sort;
 
+import java.util.Arrays;
+
 public class MergeSort {
     public static void main(String[] args) {
         int[] q = ArrayUtil.generateRandomArray(10, 1, 100);
+        System.out.println("before sort: "+ Arrays.toString(q));
         mergeSort(q, 0, q.length - 1);
         ArrayUtil.isSorted(q);
+        System.out.println("after sort: "+ Arrays.toString(q));
     }
 
     private static void mergeSort(int[] q, int l, int r) {
