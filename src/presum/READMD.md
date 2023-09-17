@@ -13,4 +13,8 @@ $sum[i,j]=S[j]-S[i-1]$
 
 ### 二维前缀和
 
-https://oi-wiki.org/basic/prefix-sum/
+[二维/多维前缀和](https://oi-wiki.org/basic/prefix-sum/#%E4%BA%8C%E7%BB%B4%E5%A4%9A%E7%BB%B4%E5%89%8D%E7%BC%80%E5%92%8C)
+
+### 差分
+
+[差分](https://oi-wiki.org/basic/prefix-sum/#%E5%B7%AE%E5%88%86)
