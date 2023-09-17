@@ -29,3 +29,8 @@
 这里的加法就可以用到上面的大数加法来解决
 
 [leetcode链接](https://leetcode.cn/problems/multiply-strings/description/)
+
+### 大数除法
+从高位到低位，当前位除以除数，得到商和余数，余数乘以10再加上下一位，继续下一位的除法。
+
+![div.png](div.png)
