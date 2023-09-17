@@ -10,3 +10,7 @@
 唯一的用途就是用来求区间和:
 
 $sum[i,j]=S[j]-S[i-1]$
+
+### 二维前缀和
+
+https://oi-wiki.org/basic/prefix-sum/
