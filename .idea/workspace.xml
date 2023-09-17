@@ -78,7 +78,7 @@
       <recent name="sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.bignumber.Solution">
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.MergeSort" />
       <module name="hello" />
@@ -118,6 +118,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="bignumber.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bignumber.Solution" />
+      <module name="hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bignumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="acwing-algorithm-course" />
       <method v="2">
@@ -133,6 +146,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bignumber.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
@@ -163,7 +177,7 @@
       <workItem from="1694870121179" duration="1364000" />
       <workItem from="1694917628880" duration="616000" />
       <workItem from="1694920007428" duration="130000" />
-      <workItem from="1694920401545" duration="1939000" />
+      <workItem from="1694920401545" duration="9199000" />
     </task>
     <task id="LOCAL-00001" summary="增加readme">
       <option name="closed" value="true" />
@@ -220,6 +234,11 @@
           <url>file://$PROJECT_DIR$/src/sort/QuickSort.java</url>
           <line>16</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bignumber/Solution.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
