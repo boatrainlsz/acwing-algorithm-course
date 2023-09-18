@@ -8,10 +8,29 @@ for(int i = 0;i<nums.length;i++){
     }
 }
 ```
+优化为
 
 ```java
 for(int i = 0;i<nums.length;i++){
-    while(j <i&&check(j))j++;
+    while(j < i && check(j))j++;
 }
 ```
 其中 `check` 是指j满足某种性质
+
+### 例子
+最简单的例子就是[字符串中的单词数](https://leetcode.cn/problems/number-of-segments-in-a-string/)
+```java
+class Solution {
+    public int countSegments(String s) {
+        int n = s.length();
+        int ans = 0;
+        for (int i = 0; i < n; i++) {
+            int j = i;
+            while (j < n && s.charAt(j) != ' ') j++;
+            if (i != j) ans++;
+            i = j;
+        }
+        return ans;
+    }
+}
+```
